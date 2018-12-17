@@ -1,0 +1,46 @@
+# ansible_101
+
+1  yum install epel-release -y
+    2  yum install ansible -y
+    3  ssh-keygen
+    4  cat /root/.ssh/id_rsa.pub 
+    5  cd /etc/ansible
+    6  ls
+    7  mkdir playbooks
+    8  ls
+    9  vim /etc/ansible/hosts
+   10  yum install vim
+   11  vim /etc/ansible/hosts
+   12  ping all -m
+   13  ansible all -m ping
+   14  cat /root/.ssh/id_rsa.pub 
+   15  cd /etc/ansible/
+   16  ls
+   17  git clone https://github.com/ansible/ansible.git
+   18  yum install git
+   19  git clone https://github.com/ansible/ansible.git
+   20  ls
+   21  cd ansible
+   22  ls
+   23  cd /etc/ansible/playbooks/
+   24  git clone https://github.com/volodymyr1213/ansible_101.git
+   25  cat ~/.id_rsa.pub
+   26  ls
+   27  cd
+   28  ls
+   29  cd /etc/ansible/playbooks/
+   30  ls
+   31  vim install yml
+   32  vim wordpress.yml
+   33  ls
+   34  pwd
+   35  cat ~/.ssh/id_rsa.pub
+   36  ls
+   37  mv * ansible_101
+   38  ls
+   39  cd ansible_101/
+   42  git add .
+   43  git commit -m "ansible class"
+   44  git config --global user.email "vova.khomenko1990@gmail.com"
+   45  git commit -m "ansible class"
+   46  git push -u origin master
